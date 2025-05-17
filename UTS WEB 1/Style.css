@@ -1,0 +1,323 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: palevioletred;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: blueviolet;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('img/laundry.jpg') no-repeat center center/cover;
+    color: rgb(244, 241, 245);
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .tentang-kami {
+    background-color: pink;
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .tentang-kami h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .tentang-kami p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Services */
+  .services {
+    background-color: pink;
+    padding: 60px 0;
+    color: white;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .galeri-section {
+    background-color: pink;
+    padding: 60px 20px;
+  }
+  
+  .galeri-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .galeri-container h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .galeri-deskripsi {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .galeri-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .galeri-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .galeri-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .testimoni-foto-section {
+    background-color: rgb(204, 139, 150);
+    padding: 60px 20px;
+  }
+  
+  .testimoni-foto-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .testimoni-foto-container h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .testimoni-subtitle {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .testimoni-foto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .testimoni-card {
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimoni-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimoni-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #2c3e50;
+  }
+  
+  .testimoni-info h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  .testimoni-info p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .kontak-section {
+    background-color: pink;
+    padding: 60px 20px;
+  }
+  
+  .kontak-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .kontak-container h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .kontak-subtitle {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  
+  .kontak-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .kontak-info {
+    flex: 1 1 300px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: white;
+  }
+  
+  .kontak-form {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .kontak-form input,
+  .kontak-form textarea {
+    padding: 12px ;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid hsl(0, 24%, 75%);
+    font-size: 15px;
+    width: 100%;
+  }
+  
+  .kontak-form button {
+    background-color: hsl(210, 35%, 45%);
+    color: rgb(223, 117, 175);
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kontak-form button:hover {
+    background-color: #1a2533;
+  }
+  
+  
+  /* Pricing */
+  .pricing {
+    padding: 60px 0;
+    background-color: rgb(199, 101, 110);
+    color: #fff;
+  }
+  
+  .pricing h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .pricing table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pricing th, .pricing td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .pricing th {
+    background-color: black;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
